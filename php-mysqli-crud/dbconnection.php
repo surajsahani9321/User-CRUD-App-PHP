@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost", "root", "1110275144", "phptutorial");
+$con=mysqli_connect("localhost", "root", "", "phptutorial");
 if(mysqli_connect_errno())
 {
 echo "Connection Fail".mysqli_connect_error();
